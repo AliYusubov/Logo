@@ -1,0 +1,944 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 25%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*                                                   SECTION 1                                                                         */
+
+.Nav {
+    display: inline-block;
+    padding: 20px;
+    width: 110px;
+
+}
+
+
+.Navbar a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.Nav:hover {
+    background-color: rgb(192, 192, 192);
+    ;
+
+}
+
+
+
+.Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    width: 100%;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    z-index: 100;
+}
+
+.Nav1:hover {
+    background-color: rgb(192, 192, 192);
+
+}
+
+.logo:hover {
+    background-color: rgb(192, 192, 192);
+
+}
+
+.Nav1 {
+    display: inline-block;
+    padding: 20px;
+    width: 150px;
+
+
+}
+
+.right {
+    float: right;
+}
+
+.logo {
+    letter-spacing: 3px;
+    font-size: 15px;
+    display: inline-block;
+    padding: 20px;
+    width: 110px;
+
+}
+
+.i {
+    font-size: 15px;
+}
+
+/*                                                  SECTION 2                                                                         */
+
+.div {
+    background-image: url('../pictures/main_pic.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 777px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Start {
+    font-size: 64px;
+    color: white;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.Stop {
+    color: white;
+    padding-left: 50px;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.Learn {
+    padding: 17px 24px;
+    border: 1px solid grey;
+    color: #000;
+    background-color: grey;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.Learn:hover {
+    background-color: white;
+}
+
+.div1 i {
+    color: grey;
+    padding-top: px;
+    font-size: 20px;
+}
+
+.div i:hover {
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+}
+
+.div1 {
+    padding-top: 300px;
+}
+
+.facebook {
+    padding-left: 50px;
+}
+
+/*                                                  SECTION 3                                                                         */
+
+.div2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.h2 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+.Key {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.icon {
+    /* position: absolute;
+    transform: translate(-50% 0);
+    top:0;
+    left: 50% ; */
+    font-size: 64px;
+}
+
+
+
+.Responsive {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.Lorem {
+    text-align: center;
+    font-size: 17px;
+}
+
+.container_icon {
+    position: relative;
+    text-align: center;
+
+}
+
+.RP {
+    font-size: 18px;
+}
+
+/*                                                  SECTION 4                                                                         */
+
+.div3 {
+    background-color: rgb(232, 232, 232);
+    width: 100%;
+    height: 600px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.phone_buildings {
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.h3 {
+    font-size: 24px;
+    margin-left: 30px;
+    padding-top: 100px;
+    color: rgb(34, 34, 34);
+}
+
+.ipsum {
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.view {
+    padding: 11px 17px;
+    border: 1px solid grey;
+    color: #000;
+    background-color: grey;
+    font-size: 15px;
+    margin-left: 30px;
+    color: white;
+    width: 170px;
+    text-align: center;
+    background-color: black;
+}
+
+.view:hover {
+    background-color: rgb(177, 177, 177);
+    border: 1px solid rgb(177, 177, 177);
+    transition-property: all;
+}
+
+.view a:hover {
+    color: black;
+}
+
+.view a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+/*                                                  SECTION 5                                                                         */
+
+.team {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+.Company {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.div4 {
+    filter: grayscale(70%);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.team1 {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    width: 350px;
+    margin-left: 15px;
+}
+
+.team_pic {
+    height: 230px;
+    width: 100%;
+}
+
+.Contact {
+    height: 40px;
+    width: 300px;
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 20px;
+
+}
+
+.Contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.cont {
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.C {
+    padding-left: 20px;
+    color: rgb(163, 163, 163);
+    font-size: 15px;
+}
+
+.P {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.ct {
+    margin-left: 25px;
+}
+
+.Contact:hover {
+    background-color: rgb(186, 186, 186);
+}
+
+.PPHM {
+    background-color: rgb(97, 97, 97);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.hp {
+    font-size: 33px;
+}
+
+.prnts {
+    font-size: 17px;
+}
+
+/*                                                  SECTION 6                                                                         */
+
+.Our {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+.People {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.pictures img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+
+}
+
+.pictures img:hover {
+    opacity: 0.7;
+    padding: 15px;
+}
+
+.pictures {
+    width: 350px;
+    height: 250px;
+    margin-left: 15px;
+}
+
+.div5 {
+    margin-bottom: 100px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*                                                  SECTION 6                                                                         */
+
+.div6 {
+    background-color: #f1f1f1 !important;
+    padding-top: 75px;
+    padding-left: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Skills {
+    font-size: 24px;
+}
+
+.Lorip {
+    font-size: 15px;
+}
+
+.Phgrap {
+    letter-spacing: 5px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+/*                                                  @KEYFRAMES 1                                                                       */
+
+@keyframes example {
+
+    from {
+        background-color: #f1f1f1;
+        color: #f1f1f1;
+    }
+
+    to {
+        background-color: grey;
+        padding-right: 300px;
+        padding-left: 300px;
+
+        height: 10px;
+        color: white;
+        text-align: center;
+    }
+}
+
+@keyframes example1 {
+
+    from {
+        background-color: #f1f1f1;
+        color: #f1f1f1;
+    }
+
+    to {
+        background-color: rgb(203, 203, 203);
+        padding-right: 50px;
+        height: 50px;
+
+    }
+}
+
+.trn1 {
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+.mark1 {
+    animation-name: example1;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+/*                                                  @KEYFRAMES 2                                                                       */
+
+@keyframes example2 {
+
+    from {
+        background-color: #f1f1f1;
+        color: #f1f1f1;
+    }
+
+    to {
+        background-color: grey;
+        padding-right: 275px;
+        padding-left: 275px;
+        height: 10px;
+        color: white;
+        text-align: center;
+    }
+}
+
+@keyframes example3 {
+
+    from {
+        background-color: #f1f1f1;
+        color: #f1f1f1;
+    }
+
+    to {
+        background-color: rgb(203, 203, 203);
+        padding-right: 100px;
+        height: 50px;
+    }
+}
+
+.trn2 {
+    animation-name: example2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+.mark2 {
+    animation-name: example3;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+
+/*                                                  @KEYFRAMES 3                                                                       */
+
+@keyframes example4 {
+
+    from {
+        background-color: #f1f1f1;
+        color: #f1f1f1;
+    }
+
+    to {
+        background-color: grey;
+        padding-right: 250px;
+        padding-left: 250px;
+        height: 10px;
+        color: white;
+        text-align: center;
+    }
+}
+
+@keyframes example5 {
+
+    from {
+        background-color: #f1f1f1;
+        color: #f1f1f1;
+    }
+
+    to {
+        background-color: rgb(203, 203, 203);
+        padding-right: 150px;
+        height: 50px;
+    }
+}
+
+.trn3 {
+    animation-name: example4;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+.mark3 {
+    animation-name: example5;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+.div7 {
+    background-color: #f1f1f1 !important;
+    padding-top: 77px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*                                                  SECTION 7                                                                         */
+
+.div8 {
+    background-color: #616161;
+    width: 100%;
+    height: 900px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.basic-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.Pricing {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    color: white;
+}
+
+
+.Choose {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    color: white;
+}
+
+.Basic {
+    width: 440px;
+    height: 520px;
+    font-size: 14px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    animation-name: Basic;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.bas {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.GB10 p {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.S10 {
+    text-align: center;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.Ten {
+    letter-spacing: 7px;
+    font-size: 33px;
+}
+
+.Sign a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.Sign {
+    background-color: black;
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 170px;
+
+}
+
+.Sign:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scale(88%);
+    border-radius: 5%;
+    animation-name: Sign;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+
+.Sign1:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scale(88%);
+    border-radius: 5%;
+    animation-name: Sign;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+
+.Sign:hover {
+    background-image: linear-gradient(black, rgb(121, 121, 121));
+}
+
+.Sign1:hover {
+    background-image: linear-gradient(red, black);
+
+}
+
+.bsc {
+    margin-left: 55px;
+}
+
+.Basic1 {
+    width: 480px;
+    height: 560px;
+    background-color: white;
+    margin-left: 20px;
+    animation-name: Basic1;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+
+}
+
+.bas1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.per {
+    color: rgb(183, 183, 183);
+}
+
+.Sign1 {
+    background-color: black;
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+
+.Sign1 a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes Basic1 {
+
+    from {
+        opacity: 0.9;
+    }
+
+    to {
+        box-shadow: 10px 10px 50px black;
+    }
+}
+
+@keyframes Basic {
+
+    from {
+        opacity: 0.9;
+    }
+
+    to {
+        box-shadow: 10px 10px 50px black;
+    }
+}
+
+@keyframes Sign {
+    0% {
+        background-color: black;
+        left: 200px;
+        top: 200px;
+    }
+
+    50% {
+        background-color: grey;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+/*                                                  SECTION 8                                                                         */
+
+.div9 {
+    background-color: #f4f4f4;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Contc {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    color: black;
+}
+
+
+.Message {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    color: black;
+}
+
+.CPE {
+    width: 300px;
+    height: 70px;
+    font-size: 15px;
+    display: block;
+    margin-left: 20px;
+}
+
+.location {
+    font-size: 33px !important;
+    margin-right: 22px;
+}
+
+.input {
+    width: 1470px;
+    height: 44px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #c2c2c2;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 11px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button:hover {
+    color: #000;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+}
+
+.Map {
+    margin-left: 20px;
+    width: 1470px;
+    filter: grayscale(70%);
+}
+
+/*                                                  SECTION 9                                                                         */
+
+.div10 {
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.top {
+    width: 300px;
+    text-decoration: none;
+    color: black;
+    background-color: #f1f1f1;
+    padding: 15px 20px;
+}
+
+.top:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+.bold {
+    margin-left: 20px;
+}
+
+.div11 i {
+    color: white;
+    font-size: 24px;
+}
+
+.Powered {
+    color: white;
+    padding-top: 20px;
+    font-size: 15px !important;
+}
+
+.Powered a {
+    color: white;
+    font-size: 15px !important;
+}
+
+.Powered a:hover {
+    color: green;
+}
+
+.div11 i:hover {
+    color: rgb(144, 144, 144);
+    cursor: pointer;
+}
+
+
+
+/*                                                  JavaScript                                                                         */

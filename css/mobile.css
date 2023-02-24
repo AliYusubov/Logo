@@ -1,0 +1,41 @@
+@media screen and (max-width: 550px) {
+    .Navbar {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    .div {
+        width: 100%;
+        height: 600px;
+        background-image: url(../pictures/main_pic.jpg);
+    }
+
+    .div1 {
+        padding-top: 177px;
+        font-size: 15px;
+    }
+
+    .Start {
+        font-size: 33px;
+        padding-left: 33px;
+        text-align: justify;
+    }
+
+    .Stop {
+        font-size: 17px;
+        padding-left: 33px;
+        padding-top: 50px;
+        text-align: justify;
+    }
+
+    .Learn {
+        margin-left: 33px;
+    }
+
+    .facebook {
+        padding-left: 33px;
+    }
+
+    .container_icon { display: block;}
+
+}
